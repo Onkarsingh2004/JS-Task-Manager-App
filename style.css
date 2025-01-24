@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #5A67D8;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#task-form {
+    margin-bottom: 30px;
+}
+
+#task-form h2 {
+    margin-bottom: 10px;
+    color: #4A5568;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5A67D8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #434190;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+#task-list h2 {
+    color: #4A5568;
+    margin-bottom: 10px;
+}
+
+ul#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+ul#tasks li {
+    padding: 15px;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+ul#tasks li:nth-child(odd) {
+    background: #e2e8f0;
+}
+
+.task-details {
+    flex: 1;
+}
+
+.task-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
